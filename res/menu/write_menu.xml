@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto" >
+
+    <!-- Settings, should always be in the overflow -->
+
+        <item
+        android:id="@+id/write_mnu_camara"
+        android:icon="@drawable/camera"
+        android:showAsAction="ifRoom"
+        android:title="카메라"/>
+</menu>

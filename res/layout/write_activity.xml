@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/write_rg_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/write_rb_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="잡담" />
+
+        <RadioButton
+            android:id="@+id/write_rb_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="질문" />
+
+        <RadioButton
+            android:id="@+id/write_rb_announcement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="알림" />
+
+        <RadioButton
+            android:id="@+id/write_rb_food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="맛집" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/write_et_msg"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:lineSpacingExtra="5dip"
+        android:textSize="13dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/green"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/write_btn_reg"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:background="@color/background1"
+            android:text="완료"
+            android:textColor="@color/white" >
+        </Button>
+
+        <Button
+            android:id="@+id/write_btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:background="@color/background1"
+            android:text="취소"
+            android:textColor="@color/white" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

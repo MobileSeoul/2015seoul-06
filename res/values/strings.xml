@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MultiChatClient!</string>
+    <string name="app_name">지하철톡</string>
+    <string name="cancel">취소</string>
+    <string name="font">bath.otf</string>
+    <string name="search_hint">역 이름을 입력하고 클릭하세요</string>
+
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#add6f2</color>
+    <color name="black">#000000</color>
+    <color name="errorcolor">#e30000</color>
+    <color name="orange">#ea6306</color>
+    <color name="gray">#818181</color>
+    <color name="ggray">#c2c2c2</color>
+    <color name="whitegray">#f6f6f6</color>
+    <color name="green">#39b54a</color>
+    <color name="transparent">#00000000</color>
+    <color name="background1">#abcdef</color>
+    <color name="background2">#abcdef</color>
+    <color name="accent">#FF4081</color>
+    <color name="black85">#D9000000</color>
+    <color name="black80">#CC000000</color>
+
+</resources>

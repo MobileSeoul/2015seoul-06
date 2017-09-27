@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/board_mnu_before"
+        android:icon="@drawable/before"
+        android:showAsAction="always"
+        android:title="before"/>
+    <item
+        android:id="@+id/board_mnu_next"
+        android:icon="@drawable/next"
+        android:showAsAction="always"
+        android:title="next"/>
+    <item
+        android:id="@+id/board_mnu_refresh"
+        android:icon="@drawable/refresh"
+        android:showAsAction="always"
+        android:title="refresh"/>
+    <item
+        android:id="@+id/board_mnu_write"
+        android:icon="@drawable/pen"
+        android:showAsAction="always"
+        android:title="write"/>
+
+</menu>
